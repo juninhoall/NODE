@@ -1,0 +1,224 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.9.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'cordova',
+1 verbose cli   'ionic' ]
+2 info using npm@3.7.3
+3 info using node@v5.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData cordova
+8 silly fetchPackageMetaData ionic
+9 silly fetchNamedPackageData cordova
+10 silly mapToRegistry name cordova
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/cordova
+14 silly fetchNamedPackageData ionic
+15 silly mapToRegistry name ionic
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/ionic
+19 verbose request uri https://registry.npmjs.org/cordova
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 19:54:40
+22 verbose request id 3ef9aa5d39731d2b
+23 verbose etag "SHQWK7K8VY74TP1QEBO1H4H"
+24 http request GET https://registry.npmjs.org/cordova
+25 verbose request uri https://registry.npmjs.org/ionic
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 19:54:40
+28 verbose etag "BZH36RG89YE5S7JFBRMJ4JSJW"
+29 http request GET https://registry.npmjs.org/ionic
+30 http 200 https://registry.npmjs.org/cordova
+31 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 verbose headers   etag: '"4SYEYW4PF9Z0F6AMTIL8G4VQC"',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'content-encoding': 'gzip',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'content-length': '34546',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Fri, 10 Jun 2016 22:54:42 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   age: '65',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-iad2142-IAD',
+31 verbose headers   'x-cache': 'HIT',
+31 verbose headers   'x-cache-hits': '1',
+31 verbose headers   'x-timer': 'S1465599282.000734,VS0,VE0',
+31 verbose headers   vary: 'Accept-Encoding' }
+32 silly get cb [ 200,
+32 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 silly get     etag: '"4SYEYW4PF9Z0F6AMTIL8G4VQC"',
+32 silly get     'content-type': 'application/json',
+32 silly get     'content-encoding': 'gzip',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'content-length': '34546',
+32 silly get     'accept-ranges': 'bytes',
+32 silly get     date: 'Fri, 10 Jun 2016 22:54:42 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     age: '65',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-iad2142-IAD',
+32 silly get     'x-cache': 'HIT',
+32 silly get     'x-cache-hits': '1',
+32 silly get     'x-timer': 'S1465599282.000734,VS0,VE0',
+32 silly get     vary: 'Accept-Encoding' } ]
+33 verbose get saving cordova to /Users/Unix/.npm/registry.npmjs.org/cordova/.cache.json
+34 verbose correctMkdir /Users/Unix/.npm correctMkdir not in flight; initializing
+35 http 200 https://registry.npmjs.org/ionic
+36 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 verbose headers   etag: '"BT9FRXBXCS5RLKSH6HK3II6U8"',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'content-encoding': 'gzip',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'content-length': '62871',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Fri, 10 Jun 2016 22:54:42 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   age: '0',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-iad2131-IAD',
+36 verbose headers   'x-cache': 'HIT',
+36 verbose headers   'x-cache-hits': '1',
+36 verbose headers   'x-timer': 'S1465599282.010312,VS0,VE98',
+36 verbose headers   vary: 'Accept-Encoding' }
+37 silly get cb [ 200,
+37 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+37 silly get     etag: '"BT9FRXBXCS5RLKSH6HK3II6U8"',
+37 silly get     'content-type': 'application/json',
+37 silly get     'content-encoding': 'gzip',
+37 silly get     'cache-control': 'max-age=300',
+37 silly get     'content-length': '62871',
+37 silly get     'accept-ranges': 'bytes',
+37 silly get     date: 'Fri, 10 Jun 2016 22:54:42 GMT',
+37 silly get     via: '1.1 varnish',
+37 silly get     age: '0',
+37 silly get     connection: 'keep-alive',
+37 silly get     'x-served-by': 'cache-iad2131-IAD',
+37 silly get     'x-cache': 'HIT',
+37 silly get     'x-cache-hits': '1',
+37 silly get     'x-timer': 'S1465599282.010312,VS0,VE98',
+37 silly get     vary: 'Accept-Encoding' } ]
+38 verbose get saving ionic to /Users/Unix/.npm/registry.npmjs.org/ionic/.cache.json
+39 verbose correctMkdir /Users/Unix/.npm correctMkdir not in flight; initializing
+40 silly install normalizeTree
+41 silly loadCurrentTree Finishing
+42 silly loadIdealTree Starting
+43 silly install loadIdealTree
+44 silly cloneCurrentTree Starting
+45 silly install cloneCurrentTreeToIdealTree
+46 silly cloneCurrentTree Finishing
+47 silly loadShrinkwrap Starting
+48 silly install loadShrinkwrap
+49 silly loadShrinkwrap Finishing
+50 silly loadAllDepsIntoIdealTree Starting
+51 silly install loadAllDepsIntoIdealTree
+52 silly resolveWithNewModule cordova@6.2.0 checking installable status
+53 silly cache add args [ 'cordova', null ]
+54 verbose cache add spec cordova
+55 silly resolveWithNewModule ionic@1.7.15 checking installable status
+56 silly cache add args [ 'ionic', null ]
+57 verbose cache add spec ionic
+58 silly cache add parsed spec Result {
+58 silly cache add   raw: 'cordova',
+58 silly cache add   scope: null,
+58 silly cache add   name: 'cordova',
+58 silly cache add   rawSpec: '',
+58 silly cache add   spec: 'latest',
+58 silly cache add   type: 'tag' }
+59 silly addNamed cordova@latest
+60 verbose addNamed "latest" is being treated as a dist-tag for cordova
+61 info addNameTag [ 'cordova', 'latest' ]
+62 silly mapToRegistry name cordova
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/cordova
+66 verbose addNameTag registry:https://registry.npmjs.org/cordova not in flight; fetching
+67 silly cache add parsed spec Result {
+67 silly cache add   raw: 'ionic',
+67 silly cache add   scope: null,
+67 silly cache add   name: 'ionic',
+67 silly cache add   rawSpec: '',
+67 silly cache add   spec: 'latest',
+67 silly cache add   type: 'tag' }
+68 silly addNamed ionic@latest
+69 verbose addNamed "latest" is being treated as a dist-tag for ionic
+70 info addNameTag [ 'ionic', 'latest' ]
+71 silly mapToRegistry name ionic
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/ionic
+75 verbose addNameTag registry:https://registry.npmjs.org/ionic not in flight; fetching
+76 verbose get https://registry.npmjs.org/cordova not expired, no request
+77 silly addNameTag next cb for cordova with tag latest
+78 silly addNamed cordova@6.2.0
+79 verbose addNamed "6.2.0" is a plain semver version for cordova
+80 silly mapToRegistry name cordova
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/cordova
+84 verbose addRemoteTarball https://registry.npmjs.org/cordova/-/cordova-6.2.0.tgz not in flight; adding
+85 verbose addRemoteTarball [ 'https://registry.npmjs.org/cordova/-/cordova-6.2.0.tgz',
+85 verbose addRemoteTarball   '8442ec6f4d4440bc124713d32139d78efa1b72ce' ]
+86 verbose get https://registry.npmjs.org/ionic not expired, no request
+87 silly addNameTag next cb for ionic with tag latest
+88 silly addNamed ionic@1.7.15
+89 verbose addNamed "1.7.15" is a plain semver version for ionic
+90 silly mapToRegistry name ionic
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/ionic
+94 verbose addRemoteTarball https://registry.npmjs.org/ionic/-/ionic-1.7.15.tgz not in flight; adding
+95 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic/-/ionic-1.7.15.tgz',
+95 verbose addRemoteTarball   'fe83a72a60d03d667d0f3bb47a4210f57356c322' ]
+96 info retry fetch attempt 1 at 19:54:48
+97 info attempt registry request try #1 at 19:54:48
+98 http fetch GET https://registry.npmjs.org/ionic/-/ionic-1.7.15.tgz
+99 info retry fetch attempt 1 at 19:54:48
+100 info attempt registry request try #1 at 19:54:48
+101 http fetch GET https://registry.npmjs.org/cordova/-/cordova-6.2.0.tgz
+102 http fetch 200 https://registry.npmjs.org/ionic/-/ionic-1.7.15.tgz
+103 http fetch 200 https://registry.npmjs.org/cordova/-/cordova-6.2.0.tgz
+104 silly fetchAndShaCheck shasum 8442ec6f4d4440bc124713d32139d78efa1b72ce
+105 verbose addTmpTarball /var/folders/8p/7cffr7qn25zgzd258bb8226h0000gn/T/npm-3394-fe4bbf15/registry.npmjs.org/cordova/-/cordova-6.2.0.tgz not in flight; adding
+106 verbose addTmpTarball already have metadata; skipping unpack for cordova@6.2.0
+107 verbose correctMkdir /Users/Unix/.npm correctMkdir not in flight; initializing
+108 silly cache afterAdd cordova@6.2.0
+109 verbose afterAdd /Users/Unix/.npm/cordova/6.2.0/package/package.json not in flight; writing
+110 verbose correctMkdir /Users/Unix/.npm correctMkdir not in flight; initializing
+111 verbose afterAdd /Users/Unix/.npm/cordova/6.2.0/package/package.json written
+112 info retry will retry, error on last attempt: Error: read ETIMEDOUT
+113 info retry will retry, error on last attempt: Error: read ETIMEDOUT
+114 silly fetchAndShaCheck shasum fe83a72a60d03d667d0f3bb47a4210f57356c322
+115 silly rollbackFailedOptional Starting
+116 silly rollbackFailedOptional Finishing
+117 silly runTopLevelLifecycles Starting
+118 silly runTopLevelLifecycles Finishing
+119 silly install printInstalled
+120 verbose stack Error: shasum check failed for /var/folders/8p/7cffr7qn25zgzd258bb8226h0000gn/T/npm-3394-fe4bbf15/registry.npmjs.org/ionic/-/ionic-1.7.15.tgz
+120 verbose stack Expected: fe83a72a60d03d667d0f3bb47a4210f57356c322
+120 verbose stack Actual:   807609c37d16242e4f7d2d0d3298675e4095b36b
+120 verbose stack From:     https://registry.npmjs.org/ionic/-/ionic-1.7.15.tgz
+120 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/sha/index.js:25:8
+120 verbose stack     at ReadStream.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/sha/index.js:72:7)
+120 verbose stack     at emitNone (events.js:85:20)
+120 verbose stack     at ReadStream.emit (events.js:179:7)
+120 verbose stack     at endReadableNT (_stream_readable.js:913:12)
+120 verbose stack     at _combinedTickCallback (node.js:383:13)
+120 verbose stack     at process._tickCallback (node.js:407:11)
+121 verbose cwd /Users/Unix/github/NODE/PrototipoTelas
+122 error Darwin 15.5.0
+123 error argv "/usr/local/Cellar/node/5.9.1/bin/node" "/usr/local/bin/npm" "install" "-g" "cordova" "ionic"
+124 error node v5.9.1
+125 error npm  v3.7.3
+126 error shasum check failed for /var/folders/8p/7cffr7qn25zgzd258bb8226h0000gn/T/npm-3394-fe4bbf15/registry.npmjs.org/ionic/-/ionic-1.7.15.tgz
+126 error Expected: fe83a72a60d03d667d0f3bb47a4210f57356c322
+126 error Actual:   807609c37d16242e4f7d2d0d3298675e4095b36b
+126 error From:     https://registry.npmjs.org/ionic/-/ionic-1.7.15.tgz
+127 error If you need help, you may report this error at:
+127 error     <https://github.com/npm/npm/issues>
+128 verbose exit [ 1, true ]
